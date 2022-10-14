@@ -3693,18 +3693,25 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		
+		justify-content: center;
+		text-align: center;
+		
 	}
 
 		#footer > * {
 			width: calc(50% - 2em);
-			margin-left: 2em;
+			margin-left: 0;
 		}
 
 		#footer .copyright {
+			display: flex;
 			width: 100%;
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
 			text-align: center;
+			justify-content: center;
+			
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3783,3 +3790,5 @@ input, select, textarea {
 			}
 
 		}
+
+		
